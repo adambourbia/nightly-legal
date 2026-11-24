@@ -15,11 +15,13 @@ Nightly ("the app", "we", "us") is made by Adam Bourbia, New York, United States
 
 **What you post.** Chat messages, photos, reactions, your profile photo, and crew photos. These are visible only to members of the crew they were posted in.
 
-**What you log.** The crews you join, the nights you take part in, the drinks you log (type and time), team assignments, and the names of bars you add to a night.
+**What you log.** The crews you join, the nights and trips you take part in, the drinks you log (type and time), team assignments, and the names of bars you add to a night.
 
-**Location: city only.** When you start a night, you can let the app look up your city. Your phone works out the city name, and only that name (for example "Brooklyn, New York") is saved. Your exact location is never stored or sent to us.
+**Payment usernames (optional).** If you add a Venmo or Cash App username in your profile, members of your crews can see it so they can pay you back. Tapping "Venmo" or "Cash App" in Nightly only opens that app. Payments happen entirely in Venmo or Cash App, and Nightly never sees or handles money or payment details.
 
-**Bar search.** When you search for a bar, the text you type and the night's city name are sent to Photon (photon.komoot.io), a free OpenStreetMap search service, to find matching places. We save the bar's name, its OpenStreetMap ID and its neighborhood. Your location is not sent.
+**Location: city only.** When you start a night, or add your city to a tab, you can let the app look up your city. Your phone works out the city name, and only that name (for example "Brooklyn, New York") is saved. Your exact location is never stored or sent to us.
+
+**Bar search.** When you search for a bar, the text you type and the night's city name are sent to Photon (photon.komoot.io), a free OpenStreetMap search service, to find matching places. We save the bar's name, its OpenStreetMap ID and its neighborhood. Your location is not sent. Map data © OpenStreetMap contributors.
 
 We do not collect contacts, advertising identifiers, or health data, and we don't use analytics or ad trackers.
 
