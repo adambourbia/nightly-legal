@@ -1,0 +1,65 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join a crew on Nightly</title>
+<meta name="description" content="You've been invited to a crew on Nightly.">
+<style>
+  :root { --table:#151311; --paper:#f6f5f1; --ink:#24211e; --dim:#7b746c; --red:#c8302a; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; background:var(--table); color:var(--paper);
+    font-family:"IBM Plex Mono", ui-monospace, Menlo, monospace; display:flex;
+    align-items:center; justify-content:center; padding:24px 16px; }
+  .tab { background:var(--paper); color:var(--ink); width:100%; max-width:360px; padding:24px 22px 18px;
+    transform:rotate(-1.5deg); }
+  .edge { height:10px; max-width:360px; width:100%; transform:rotate(-1.5deg); margin-top:-1px;
+    background:linear-gradient(135deg,var(--paper) 50%,transparent 50%) 0 0/12px 12px repeat-x,
+               linear-gradient(225deg,var(--paper) 50%,transparent 50%) 0 0/12px 12px repeat-x; }
+  .wrap { width:100%; max-width:360px; }
+  h1 { font-size:26px; letter-spacing:.12em; margin:0; text-align:center; }
+  .bar { width:70px; height:5px; background:var(--red); margin:10px auto 18px; }
+  .rule { border:0; border-top:2px dashed #b8b1a7; margin:14px 0; }
+  p { margin:6px 0; font-size:14px; line-height:1.5; }
+  .dim { color:var(--dim); }
+  .code { font-size:30px; font-weight:700; letter-spacing:.2em; text-align:center; margin:8px 0; }
+  a.btn { display:block; text-align:center; background:var(--red); color:var(--paper); text-decoration:none;
+    font-weight:700; letter-spacing:.08em; padding:14px; margin-top:16px; }
+  a.btn:focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="tab">
+      <h1>NIGHTLY</h1>
+      <div class="bar"></div>
+      <p class="dim">YOU'VE BEEN INVITED TO A CREW</p>
+      <hr class="rule">
+      <p class="dim">CREW CODE</p>
+      <div class="code" id="code">--------</div>
+      <a class="btn" id="open" href="#">OPEN IN NIGHTLY</a>
+      <hr class="rule">
+      <p class="dim">Don't have Nightly yet? It's in beta on iPhone. Ask whoever sent you this for the TestFlight link, then come back and tap Open.</p>
+      <p class="dim">Already in the app? Go to Home, tap Join with code, and enter the code above.</p>
+    </div>
+    <div class="edge"></div>
+  </div>
+<script>
+  var m = location.search.match(/[?&]code=([A-Za-z0-9-]{4,20})/);
+  var code = m ? m[1].replace(/-/g, '').toUpperCase() : '';
+  var open = document.getElementById('open');
+  if (code) {
+    document.getElementById('code').textContent = code;
+    open.href = 'nightly://join?code=' + encodeURIComponent(code);
+    // Try to open the app straight away; if it isn't installed, the page stays.
+    setTimeout(function () { location.href = open.href; }, 300);
+  } else {
+    document.getElementById('code').textContent = 'NO CODE';
+    open.style.display = 'none';
+  }
+</script>
+</body>
+</html>
