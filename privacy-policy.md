@@ -5,9 +5,9 @@ permalink: /privacy-policy/
 
 # Nightly Privacy Policy
 
-_Last updated: October 29, 2026_
+_Last updated: November 24, 2026_
 
-Nightly ("the app", "we", "us") is made by Adam Bourbia, New York, United States. This policy explains what the app collects, why, and what you can do about it. The best way to reach us is by email: abourbia01@gmail.com.
+Nightly ("the app", "we", "us") is made by Adam Bourbia, New York, United States. This policy explains what the app collects, why, and what you can do about it. The best way to reach us is by email: nightlyapp.help@gmail.com.
 
 ## What we collect
 
@@ -34,7 +34,7 @@ We do not sell your data, share it with advertisers, or use it for advertising.
 ## Who can see your data
 
 - **Your crews.** Members of a crew can see what's posted and logged in that crew.
-- **Service providers.** Our database, login and file storage are provided by Supabase, which stores data on our behalf. Bar searches go to Photon as described above. Account emails (sign-up and password-reset codes) are sent through an email delivery service on our behalf.
+- **Service providers.** Our database, login and file storage are provided by Supabase, which stores data on our behalf. Bar searches go to Photon as described above. Account emails (sign-up and password-reset codes) are sent from nightlyapp.help@gmail.com using Google's Gmail service.
 - **The law.** We may disclose information if legally required.
 
 ## Blocking and reporting
@@ -47,11 +47,11 @@ We keep your data while your account exists. You can delete your account at any 
 
 ## Age
 
-Nightly is only for people of legal drinking age where they live (21+ in the United States). We do not knowingly collect data from anyone under that age. If you believe someone underage has an account, contact abourbia01@gmail.com and we will delete it.
+Nightly is only for people of legal drinking age where they live (21+ in the United States). We do not knowingly collect data from anyone under that age. If you believe someone underage has an account, contact nightlyapp.help@gmail.com and we will delete it.
 
 ## Your rights
 
-Depending on where you live, you may have the right to access, correct, export or delete your data. Most of this you can do in the app. For anything else, email abourbia01@gmail.com.
+Depending on where you live, you may have the right to access, correct, export or delete your data. Most of this you can do in the app. For anything else, email nightlyapp.help@gmail.com.
 
 ## Changes
 

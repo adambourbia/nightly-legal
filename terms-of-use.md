@@ -5,9 +5,9 @@ permalink: /terms-of-use/
 
 # Nightly Terms of Use
 
-_Last updated: October 29, 2026_
+_Last updated: November 24, 2026_
 
-These terms are an agreement between you and Adam Bourbia ("we", "us") about your use of Nightly. By creating an account you agree to them. Contact: abourbia01@gmail.com.
+These terms are an agreement between you and Adam Bourbia ("we", "us") about your use of Nightly. By creating an account you agree to them. Contact: nightlyapp.help@gmail.com.
 
 ## 1. Who can use Nightly
 
